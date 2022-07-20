@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  
+  body{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(
+      to top,
+      #FFCCCC50 0%,
+      #FFCCDD50 50%,
+      #FFCCEE50 50%,
+      #FFCCFF50 100%
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+h2 {
+    color: palevioletred
+}
+
+#about-me > h2 {
+    color: rgb(243, 117, 203);
+
+}
