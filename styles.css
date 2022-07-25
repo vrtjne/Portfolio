@@ -1,35 +1,112 @@
+body {
+	background: linear-gradient(-45deg, #ffe5ec, #ffc2d1, #ffb3c6, #fb6f92);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
 
-.About-Me h1 {
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.topnav {
+  background-color: #ffc2d1;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
   font-family: 'Lato', sans-serif;
-  font-size: 56px;
-  color: #5C5E60;
+}
+
+.topnav a:hover {
+  background-color: #ffb3c6;
+  color: #ffe5ec;
+  font-family: 'Lato', sans-serif;
+}
+
+.topnav a.active {
+  background-color: #fb6f92;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+
+.Header {
+  font-family: 'Lato Bold 700', sans-serif;
+  font-size: 110px;
+  color: #ffe5ec;
+ }
+
+.Me_Image {
+  height: 300px;
+ 
 
 }
 
-.About-Me > img {
-  height: 200px;
-  border-radius: 25%;
+
+.My_Header {
+  font-size: 68px;
+}
+
+.Me_Paragraph {
+  width: 1000px;
+
+  font-size: 32px;
+}
+
+
+
+.Coding-Journey  {
+  font-family: 'Lato', sans-serif;
+  font-size: 36px;
+  color: #ffe5ec;
 }
 
 .Qualities {
   height: 300px;
   width: 300px;
+  color: #ffe5ec;
+  font-family: 'Lato', sans-serif;
 }
 
 .Hobbies {
   height: 400px;
   width: 200px;
+  color: #ffe5ec;
+  font-family: 'Lato', sans-serif;
 }
 
 .My_Qualities {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  font-family: 'Lato', sans-serif;
 }
 
 .My_Hobbies {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  font-family: 'Lato', sans-serif;
+
 }
   
